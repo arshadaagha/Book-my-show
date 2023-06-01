@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 const { bookMovieSchema } = require('./schema')
 
 const dbName ='bookMovie'
-const mongoURI = "mongodb+srv://kt_kiran:8766292313@cluster0.dk6wjwu.mongodb.net/?retryWrites=true&w=majority"
+const mongoURI = "mongodb+srv://829797aaga:Arshad259@cluster0.sr8pjjp.mongodb.net/?retryWrites=true&w=majority"
 mongoose.connect(mongoURI, { useNewUrlParser: true, useUnifiedTopology: true })
     .then(() => { console.log("connection established with mongodb server online"); })
     .catch(err => {
